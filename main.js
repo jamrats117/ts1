@@ -1,12 +1,10 @@
-"use strict";
 // =======================
-// IPO: Pass / Fail
+// Conditional Logic: Pass / Fail
 // =======================
-Object.defineProperty(exports, "__esModule", { value: true });
-// Input
-var score = 75;
-// Process
-var isPassed = score >= 60;
-// Output
-console.log("Score:", score);
-console.log("Result:", isPassed ? "Passed" : "Not Passed");
+var score = 72;
+if (score >= 60) {
+    console.log("Result: Passed");
+}
+else {
+    console.log("Result: Not Passed");
+}

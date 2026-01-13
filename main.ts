@@ -1,22 +1,11 @@
 // =======================
-// IPO: Pass / Fail
+// Conditional Logic: Pass / Fail
 // =======================
 
-// Input
-const score: number = 75;
+const score: number = 72;
 
-// Process
-const isPassed: boolean = score >= 60;
-
-// Output
-console.log("Score:", score);
-console.log("Result:", isPassed ? "Passed" : "Not Passed");
-
-
-
-
-
-
-
-
-export {};
+if (score >= 60) {
+  console.log("Result: Passed");
+} else {
+  console.log("Result: Not Passed");
+}
