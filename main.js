@@ -1,6 +1,10 @@
+// =======================
+// IPO: Pass / Fail
+// =======================
 // Input
-var scoreInput = 85;
+var score = 75;
 // Process
-var passed = scoreInput >= 60;
+var isPassed = score >= 60;
 // Output
-console.log("Passed:", passed);
+console.log("Score:", score);
+console.log("Result:", isPassed ? "Passed" : "Not Passed");

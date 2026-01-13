@@ -1,8 +1,13 @@
+// =======================
+// IPO: Pass / Fail
+// =======================
+
 // Input
-const scoreInput: number = 85;
+const score: number = 75;
 
 // Process
-const passed: boolean = scoreInput >= 60;
+const isPassed: boolean = score >= 60;
 
 // Output
-console.log("Passed:", passed);
+console.log("Score:", score);
+console.log("Result:", isPassed ? "Passed" : "Not Passed");
