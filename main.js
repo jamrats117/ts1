@@ -1,6 +1,8 @@
+"use strict";
 // =======================
 // IPO: Pass / Fail
 // =======================
+Object.defineProperty(exports, "__esModule", { value: true });
 // Input
 var score = 75;
 // Process
